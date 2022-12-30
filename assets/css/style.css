@@ -57,6 +57,9 @@ a {
     background: #e6f0ff;
     height: calc(100vh - 90px);
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .navbar {
     display: flex;
@@ -91,9 +94,6 @@ a {
     margin-left: 18px;
     border-radius: 8px;
     padding: 13px 16px;
-}
-.hero {
-    padding-top: 130px;
 }
 .hero .info {
     max-width: 51%; /*559px (Thiết kế ) / w-content : 1110px*/
