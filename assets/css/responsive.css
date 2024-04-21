@@ -72,6 +72,35 @@
     .separate {
         border-top: 1px solid #ccc;
     }
+
+    .hero-img {
+        display: none;
+    }
+
+    .hero-wrap .info {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .hero-wrap .desc {
+        width: 80%;
+        margin: 30px auto auto;
+    }
+
+    .clients .images {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .guide-item {
+        margin: 0;
+        flex: 1;
+    }
+
+    .featured .list {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 /* Tablet */
