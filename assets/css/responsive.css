@@ -188,10 +188,6 @@
         text-align: right;
     }
 
-    .clients .row-desc {
-        margin: 0;
-    }
-
     .clients .images {
         row-gap: 20px;
     }

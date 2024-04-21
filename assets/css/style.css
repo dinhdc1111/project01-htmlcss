@@ -116,11 +116,11 @@ a {
     padding: 13px 16px;
 }
 
-.content .info {
+.hero-wrap .info {
     width: 51%;
 }
 
-.content .sub-title {
+.hero-wrap .sub-title {
     font-weight: 500;
     font-size: 1.8rem;
     line-height: 1.5;
@@ -129,7 +129,7 @@ a {
     color: #687690;
 }
 
-.content .title {
+.hero-wrap .title {
     font-weight: 700;
     font-size: 6.2rem;
     line-height: 1.1875;
@@ -137,7 +137,7 @@ a {
     margin-top: 8px;
 }
 
-.content .desc {
+.hero-wrap .desc {
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 1.78;
@@ -337,6 +337,13 @@ a {
     flex: 1;
     background-color: #ffffff;
     border-radius: 12px;
+}
+
+.featured .item .title a {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #000339;
 }
 
 .featured .item .body {
