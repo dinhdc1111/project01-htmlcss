@@ -116,12 +116,11 @@ a {
     padding: 13px 16px;
 }
 
-.hero .info {
-    max-width: 51%;
-    /*559px (Thiết kế ) / w-content : 1110px*/
+.content .info {
+    width: 51%;
 }
 
-.hero .sub-title {
+.content .sub-title {
     font-weight: 500;
     font-size: 1.8rem;
     line-height: 1.5;
@@ -130,7 +129,7 @@ a {
     color: #687690;
 }
 
-.hero .title {
+.content .title {
     font-weight: 700;
     font-size: 6.2rem;
     line-height: 1.1875;
@@ -138,7 +137,7 @@ a {
     margin-top: 8px;
 }
 
-.hero .desc {
+.content .desc {
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 1.78;
